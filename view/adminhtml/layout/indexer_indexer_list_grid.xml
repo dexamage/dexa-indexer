@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Dexa. All rights reserved.
+ * See LABELS.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="adminhtml.indexer.grid.grid.massaction">
+            <arguments>
+                <argument name="options" xsi:type="array">
+                    <item name="reindexall" xsi:type="array">
+                        <item name="label" xsi:type="string" translate="true">Reindex</item>
+                        <item name="url" xsi:type="string">dexa_indexer/indexer/massReindex</item>
+                    </item>
+                    <item name="validata" xsi:type="array">
+                        <item name="label" xsi:type="string" translate="true">Validate Index</item>
+                        <item name="url" xsi:type="string">dexa_indexer/indexer/massValidate</item>
+                    </item>
+                    <item name="invalidate" xsi:type="array">
+                        <item name="label" xsi:type="string" translate="true">Invalidate Index</item>
+                        <item name="url" xsi:type="string">dexa_indexer/indexer/massInvalidate</item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Dexa. All rights reserved.
+ * See Dexa.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Indexer\Block\Backend\Container">
+        <plugin name="Dexa_Indexer::indexerReindexAll" type="Dexa\Indexer\Plugin\Adminhtml\ReindexAll" />
+    </type>
+</config>
