@@ -10,3 +10,4 @@ Extends standard Indexer functionality
 ```
 composer require dexamage/dexa-indexer
 ```
+![alt tag](https://cloud.githubusercontent.com/assets/14139924/21954908/9deb24a0-da67-11e6-9efd-97cdba1ea003.png)
